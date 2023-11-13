@@ -1,20 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import { DefaultColorPicker } from '@thednp/react-color-picker'
-import '@thednp/react-color-picker/style.css'
-
+import logo from "./logo.svg";
+import "./App.css";
+import TextAnimation from 'react-animate-text';
+ 
 
 function App() {
-  
-    
-  
-
-
-  return (
-    <div className="App">
-      <DefaultColorPicker value="turquoise" onChange={color => console.log(color)} />;
-    </div>
-  );
+  return <div className="App">
+    <TextAnimation>'Hello Ana, you are doing great!'</TextAnimation>;
+  </div>;
 }
 
 export default App;
