@@ -1,7 +1,8 @@
 # Exercise 1
 1. Create a new React project called yourname-practice (make sure to add your own name)
+i did not add my name but i saw my mistake it was too late 
    1. Look in the package.json file. What version of React are we using?
-
+ "react": "^18.2.0",
 
 
 2. In App.js, delete everything in the return statement. Leave the parenthesis.
